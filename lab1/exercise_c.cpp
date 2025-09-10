@@ -12,7 +12,7 @@ return 2 * x;
 
 int main(int argc, char* argv[]) {
     if (argc > 1) {
-        int x = stoi(argv[1]);  // lấy số từ command-line
+        int x = stoi(argv[1]);  
         cout << f2(x) << endl;
     } else {
         cout << "No input" << endl;

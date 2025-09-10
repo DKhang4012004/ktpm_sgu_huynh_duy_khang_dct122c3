@@ -4,7 +4,6 @@
 #include <string>
 using namespace std;
 
-// Hàm solveQuartic đã có
 int solveQuartic(double a, double b, double c, double x[]) {
     if (a == 0 && b == 0 && c == 0) {
         return -1;
@@ -35,7 +34,6 @@ int solveQuartic(double a, double b, double c, double x[]) {
     return count;
 }
 
-// Struct test case
 struct TestCase {
     double a, b, c;
     int expectedSolutions;
@@ -43,7 +41,6 @@ struct TestCase {
 };
 
 int main() {
-    // Danh sách test cases
     vector<TestCase> tests = {
         {0,0,0,-1,"Infinite solutions."},
         {0,0,5,0,"No solution."},

@@ -15,7 +15,7 @@ int findMax(int num1, int num2, int num3) {
 }
 
 int main(int argc, char* argv[]) {
-    if (argc == 4) { // nhận đúng 3 input từ command-line
+    if (argc == 4) { 
         int a = stoi(argv[1]);
         int b = stoi(argv[2]);
         int c = stoi(argv[3]);
